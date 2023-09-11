@@ -1,0 +1,76 @@
+.footer{
+    justify-content: space-between;
+    background-color: #184a88;
+    padding : 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px -2px 5px rgb(0, 0, 0);
+}
+
+.footer img{
+    position : relative;
+    left : 50px;
+    width : 220px;
+    height : 140px;
+}
+
+.footer_menu{
+    width : 170px;
+    position: relative;
+    left : 20px;
+}
+
+.footer_menu p{
+    font-weight: lighter;
+    font-size: medium;
+    color :#FCFCFC;
+}
+
+.footer_menu ul li{
+    margin: 12px 0px;
+    color :white;
+}
+
+.footer_information{
+    position: relative;
+    right: 20px;
+    font-weight: medium;
+    color : white;
+    width : 300px;
+}
+
+.footer_information img{
+    position: relative;
+    top : 10px;
+    width : 30px;
+    height: 30px;
+    left : 270px;
+}
+
+.footer_information p{
+    position: relative;
+    top : -15px;
+    text-align: right;
+    margin-bottom: -19px;
+}
+
+.footer_menu a p:hover{
+    font-weight: bold;
+}
+
+.submit-section input[type=submit] {
+    box-shadow : 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+    width: 100%;
+    background-color: #285285;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-section input:hover{
+    background-color :#1d4478;
+}

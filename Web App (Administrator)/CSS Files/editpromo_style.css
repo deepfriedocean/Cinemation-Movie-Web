@@ -1,0 +1,130 @@
+body{
+    background-color: #FAFAFA;
+}
+
+.container{
+    display : flex;
+}
+
+.content{
+    width : 100%;
+    margin-left: 20%;
+    padding-top:50px;
+    padding : 60px;
+    padding-bottom: 0px;
+}
+
+.content .bagian-atas img{
+    width : 27px;
+    height : 43px;
+}
+
+.content .bagian-atas h1{
+    width : 100vh;
+    margin-top: -55px;
+    margin-left: 7%;
+    font-size: 60px;
+    font-weight: bold;
+    color : #0B3B75;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .content h5{
+    font-weight: bold;
+    color : #285285;
+    margin-top:20px;
+    font-size: 35px;
+}
+
+.form-section form{
+    margin-top: 10px;
+}
+
+.content .form-section div{
+    margin: 20px 0px;
+    /* margin-bottom: 10px; */
+}
+
+.form-section div label{
+    margin-top: 0%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-section div .input{
+    width : 100%;
+    padding : 20px;
+    box-sizing: border-box;
+    height : 45px;
+    border: 2px solid #0B3B75;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.form-section div textarea{
+    font-family: 'Inter', sans-serif;
+    width : 100%;
+    padding : 20px;
+    box-sizing: border-box;
+    border: 2px solid #0B3B75;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.form-section .input-tanggal input{
+    box-sizing : border-box;
+    height: 45px;
+    padding: 10px;
+    border: 2px solid #285285;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Inter';
+    width: 200px;
+    margin-left: 10px;
+}
+
+.form-section .input-poster input{
+    margin-top : 10px;
+    /* font-weight: bold; */
+    /* background-color: bisque; */
+}
+
+.form-section .submit-section{
+    display: flex;
+    justify-content: center;
+}
+
+.form-section .submit-section input[type="submit"] {
+    cursor: pointer;
+    width : 325px;
+    height : 60px;
+    box-shadow: 2px 2px 5px 1px #363636;  
+    background-color: #285285;
+    color: #FAFAFA;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.form-section .submit-section input[type="submit"]:hover{
+    background-color: #0B3B75;
+}
+
+
+input[type="file"]::file-selector-button{
+    /* box-shadow: 1px 1px 1px 2px #363636; */
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #285285;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width : 140px;
+    height: 40px;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #0B3B75;
+}
+ 

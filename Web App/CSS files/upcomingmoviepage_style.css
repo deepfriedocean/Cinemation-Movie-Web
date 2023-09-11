@@ -1,0 +1,138 @@
+/* CSS Style */
+.main{
+	margin : auto;
+	margin-top: 70px; 
+	padding : 50px;
+}
+
+.path-menu p{
+	color :black;
+	display: inline-block;
+}
+
+.path-menu #judul_kecil{
+	font-weight: bold;
+	margin-bottom : 20px;
+}
+
+.main .tentang_film{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.judul_film{
+	margin-bottom: 10px;
+}
+
+.main h2{
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+}
+
+.movie-section{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display : flex;
+	justify-content: center;
+}
+
+.movie-section .poster{
+	margin:0px 10px;
+	width : 314px;
+	height: 451px;
+    border-radius: 20px;
+}
+
+.movie-section .about-movie{
+	width : 380px;
+	margin: 0px 10px;
+}
+
+.about-movie .judul_film h2{
+	margin : 10px 0px;
+	text-align: left;
+}
+
+.category {
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	/* font-weight: bold; */
+}
+
+.about-movie .usia_durasi div img{
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+}
+
+.usia_durasi p{
+	margin-top : 3px;
+}
+
+.usia_durasi{
+	margin-top : 15px;
+	display: flex;
+}
+
+.rating_usia img{
+	float : left;
+}
+
+.rating_usia{
+	display: inline-block;
+	width: 85px;
+}
+
+.clear{
+	clear: left;
+}
+
+.durasi_film img{
+	float : left;
+}
+
+.durasi_film{
+	margin-left: 10px;
+	display: inline-block;
+	width: 200px;
+}
+
+.about-movie .director{
+	margin : 15px 0px;
+}
+
+.director h6{
+	font-family: 'Inter', sans-serif;
+	color : #727272;
+	margin-bottom: 5px;
+}
+
+.studio h6{
+	font-family: 'Inter', sans-serif;
+	color : #727272;
+	margin-bottom: 5px;
+}
+
+.synopsis{
+	margin: 15px 0px;
+}
+
+.synopsis h6{
+	font-family: 'Inter', sans-serif;
+	color : #727272;
+	margin-bottom: 5px;
+}
+
+.synopsis p{
+	text-align: justify;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+

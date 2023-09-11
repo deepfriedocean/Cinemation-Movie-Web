@@ -1,0 +1,112 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    min-height: 80vh;
+    width: 80%;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    padding : 20px 50px;
+}
+
+.main .page-path h5{
+    margin : 30px 0px;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.main div h3{
+    font-weight: bold;
+    font-size: 30px;
+    color : #0B3B75;
+}
+
+.main div hr{
+    border: 3px solid #285285;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 90px;
+}
+
+.main div .card{
+    display: flex;
+    position: relative;
+    height: 250px;
+    background: #285285;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 48px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+.main div img{
+    bottom : 20px;
+    left :52px;
+    position: absolute;
+    width : 211px;
+    height: 303px;
+    border: 1px solid #CCCCCC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+    border-radius: 20px;
+}
+
+.main div .left{
+    width : 23%;
+}
+
+.main div .right{
+    padding : 20px 10px;
+    display: flex;   
+    width : 77%;
+}
+
+.main div .card h1{
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: bold;
+    color : rgb(239, 239, 239);
+}
+
+.main div .card h2{
+    font-size: 20px;
+    color : rgb(239, 239, 239);
+    margin-bottom: 5px;
+}
+
+.main div .card .bagian-atas{
+    margin-bottom: 40px;
+}
+
+.bagian-bawah{
+    width : 115vh;
+    /* background-color: rgb(45, 60, 73); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.bagian-bawah .kupon{
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.bagian-bawah .kanan .sisa-waktu{
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.bagian-bawah .kanan .countdown-box{
+    width : 270px;
+    background: #EDEDED;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding : 5px 10px;
+}
+
+.bagian-bawah .kanan .countdown-box h2{
+    text-align: center;
+    color : #285285;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

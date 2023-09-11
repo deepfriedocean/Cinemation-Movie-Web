@@ -1,0 +1,135 @@
+.container{
+    display : flex;
+}
+
+.container .content{
+    width: 80%;
+    padding-top: 50px;
+    margin-left: 20%;
+}
+
+.content .bagian-atas img{
+    width : 27px;
+    height : 43px;
+}
+
+.content .bagian-atas h1{
+    width : 100vh;
+    margin-top: -55px;
+    margin-left: 7%;
+    font-size: 60px;
+    font-weight: bold;
+    color : #0B3B75;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content .bagian-atas{
+    margin-bottom: 25px;
+}
+
+.container .content .main{
+    position: relative;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .main .add-movie{
+    margin-bottom : 70px;
+}
+
+.content .main button{
+    cursor: pointer;
+    width : 450px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color : white;
+    border : 0px;
+    background-color: #285285;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content .main button:hover{
+    background-color: #0B3B75;
+    transition: 0.5s;
+}
+
+.content .main h3{
+    position: absolute;
+    font-size: 30px;
+    left : 0;
+    top : 60px;
+    color : #285285;
+}
+
+.content .main .list-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main .list-section .card{
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width : 97%;
+    height : 145px;
+    background-color: #285285;
+    padding : 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main .list-section .card:hover{
+    background-color: #0B3B75;
+    transition: 0.3s;
+}
+
+.main .list-section .card h2{
+    font-size: 30px;
+    color :#F5F5F5;
+    font-weight: bold;
+}
+
+/* .main .list-section .tanggal-promo{
+    font-size: 20px;
+    position: relative;
+} */
+
+.main .list-section .card h4{
+    font-size: 20px;
+    color :#F5F5F5;
+    font-weight: 300;
+}
+
+.main .list-section .card .bawah{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .list-section a{
+    text-decoration: none;
+}
+
+.main .list-section .card img{
+    filter: brightness(100%);
+    width : 20px;
+    transition: 0.5s;
+}
+
+.main .list-section .card img:hover{
+    filter: brightness(150%);
+    /* transform: rotate(20deg); */
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+
+

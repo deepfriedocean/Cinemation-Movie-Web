@@ -1,0 +1,121 @@
+.header{
+    font-family: 'Karla', sans-serif;
+    top :0;
+    left : 0;
+    right : 0;
+    position : fixed;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.647);    
+    padding : 10px 20px;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    z-index : 99999;
+}
+
+.header .logo{
+    order : 1;
+    flex : 1;
+}
+
+.header .navigasi{
+    /* background-color: antiquewhite; */
+    order: 2;
+    flex : 4;
+}
+
+.header .tombol{
+    position: relative;
+    left : 4%;
+    order : 3;
+    flex : 1;
+}
+
+.header .navigasi{
+    height : 50px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.header .navigasi ul li{
+    display : inline-block;
+    margin : 50px;
+}
+
+.header .logo img{
+    width : 106px;
+    height : 67px;
+    margin-left: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#0B3B75;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.tombol .login{
+    width : 80px;
+    height: 42px;
+    background-color: #fff;
+    margin-right: 5px;
+    border :0px;
+    color :#2160AD;
+    font-weight: medium;
+    font-size : 15px;
+    border : 2px solid #2160AD;
+    border-radius: 10px;
+    cursor : pointer;
+}
+
+.tombol .login:hover{
+    box-shadow: 2px 2px 2px #174f93;  
+}
+
+.tombol .sign-up:hover{
+    background-color: #1c4e8b;
+}
+
+.header .tombol .logout{
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.header .tombol .logout h3{
+    /* background-color: antiquewhite; */
+    width : fit-content;
+    font-size: 25px;
+    font-weight: bold;
+    color : #285285;
+}
+
+.tombol .sign-up{
+    width : 80px;
+    height: 42px;
+    margin-left : 10px;
+    background-color: #2160AD;
+    border : 0px;
+    border-radius: 10px;
+    color : #fff;
+    font-weight: medium;
+    font-size : 15px;
+    cursor : pointer;
+}
+
+.navigasi ul li::after{
+    content:'';
+    width:0;
+    height:2px;
+    background:#2160AD;
+    display: block;
+    margin : auto;
+    transition: 0.5s;
+}
+
+.navigasi ul li:hover::after{
+    width:100%;
+}

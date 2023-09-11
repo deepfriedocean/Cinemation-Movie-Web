@@ -1,0 +1,132 @@
+body{
+    background-color: #FAFAFA;
+}
+
+.container{
+    display : flex;
+}
+
+.content{
+    position: relative;
+    width : 100%;
+    margin-left: 20%;
+    padding-top:50px;
+    padding : 60px;
+    padding-bottom: 0px;
+}
+
+.content .bagian-atas img{
+    width : 27px;
+    height : 43px;
+}
+
+.content .bagian-atas h1{
+    width : 100vh;
+    margin-top: -55px;
+    margin-left: 7%;
+    font-size: 60px;
+    font-weight: bold;
+    color : #0B3B75;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content .bagian-atas{
+    margin-bottom: 30px;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+#search-input {
+    width: 300px;
+    padding: 10px 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+  
+#search-input:focus {
+    outline: none;
+    border-color: #0B3B75;
+}
+  
+#search-form button {
+    width : 70px;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #285285;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+  
+#search-form button:hover {
+    background-color: #0B3B75;
+}
+
+.content .feedback-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #EAEAEA;
+    width : 95%;
+}
+
+.content .feedback-list .card{
+    padding : 20px;
+    background-color: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.container .content h3{
+    font-size: 25px;
+    color :#285285;
+    margin-bottom: 20px;
+}
+
+.content .card h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .card h4, h5{
+    font-size: 15px;
+    color : #8E8E8E;
+}
+
+.content .card h4{
+    font-weight: 500;
+}
+
+.content .card h5{
+    font-weight: 400;
+}
+
+.content .card .atas h2, h4, h5{
+    margin: 5px 0px;
+}
+
+.content .card .atas {
+    margin-bottom: 12px;
+}
+
+.content .card span{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.content .card .message-text{
+    text-align: justify;
+    line-height: 20px;
+}

@@ -1,0 +1,44 @@
+.main{
+    margin-top : 60px;
+    padding : 60px 70px;
+    box-sizing: border-box;
+    min-height: 75vh;
+}
+
+.tulisan p{
+    font-weight: bold;
+    color : #8E8E8E;
+    margin-bottom: 10px;
+}
+
+.tulisan h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container .movie-list{
+    margin-bottom: -25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: flex-start; */
+}
+
+.movie-list a img{
+    transition: 0.5s;
+    width : 274px;
+    height : 393px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.647); 
+}
+
+.movie-list a img:hover{
+    transition: 0.5s;
+    opacity: 80%;
+}
+
+.movie-list a{
+    margin : 15px 30px;
+}

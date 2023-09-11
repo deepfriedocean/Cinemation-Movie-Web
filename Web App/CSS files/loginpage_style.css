@@ -1,0 +1,143 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-img img{
+    height: 100vh; 
+    position: absolute; 
+    top : 0px; 
+    left: 0px; 
+    object-fit: cover;
+    width : 100%;
+}
+
+.form-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 77px;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.5);
+    padding : 60px;
+    background-color: white;
+}
+
+.form-section img{
+    /* position: relative; */
+    margin-bottom : 20px;
+    width : 210px;
+    height : 130px;
+}
+
+.form-section div{
+    margin : 15px 0px;
+}
+
+.form-section label{
+    font-weight: bold;
+}
+
+.form-section .tulisan{
+    margin-right: 73px;
+    margin-bottom: 0px;
+}
+
+.form-section h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-section p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin : 10px 0px;
+    color : #959595;
+}
+
+.form-section input{
+    margin: 10px 0px;
+    border : 2px solid #8E8E8E;
+    border-radius: 8px;
+    padding :10px 12px;
+    width : 330px;
+}
+
+.form-section .checkbox-section label{
+    font-weight: bold;
+}
+
+.form-section input:focus{
+    border : 2px solid #285285;
+    outline : none;
+}
+
+.form-section .checkbox-section{
+    margin : -10px 0px;
+}
+
+.checkbox-section input[type="checkbox"]{
+    accent-color : #285285;
+}
+
+.checkbox-section input{
+   margin-top : 4px;
+}
+
+.checkbox-section{
+    position: relative;
+}
+
+.checkbox-section label{
+    color : #8E8E8E;
+    position : absolute;
+    left : 20px;
+    top : 2px;
+}
+
+.checkbox-section input{
+    border-radius: 50px;
+    position : relative;
+    margin-left: -158px;
+}
+
+.submit-section input[type=submit] {
+    box-shadow : 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+    width: 100%;
+    background-color: #285285;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-section input:hover{
+    background-color :#1d4478;
+}
+
+.form-section .question{
+    text-align: center;
+}
+
+.form-section .login_admin{    
+    text-align: center;
+    color : #285285;
+}
+
+.form-section .login_admin p a{
+    color : #285285;
+    text-decoration: none;
+}
+
+.question a{
+    text-decoration : none;
+    color : #285285;
+}
+
+

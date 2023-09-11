@@ -1,0 +1,136 @@
+
+.container{
+    display: flex;
+}
+
+.container .left-section{
+    width : 45%;
+}
+
+.left-section{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section img{
+    width : 233px;
+    height : 150px;
+    margin-bottom: 25px;
+}
+
+.left-section .tulisan{
+    position : relative;
+    right : 20px;
+    margin-bottom: 30px;
+}
+
+.container .right-section{
+    width : 55%;
+}
+
+.right-section img{
+    object-fit: cover;
+    width: 100%; 
+    height: 100vh
+}
+
+.form-section p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin : 10px 0px;
+    color : #959595;
+}
+
+.form-section{
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+}
+
+.tulisan h2{
+    margin : 10px 0px;
+    font-size : 30px;
+    font-weight: bold;
+}
+
+.tulisan p{
+    color : #959595;
+}
+
+.form-section input{
+    margin: 10px 0px;
+    border : 2px solid #8E8E8E;
+    border-radius: 8px;
+    padding :10px 12px;
+    width : 330px;
+}
+
+.form-section .checkbox-section{
+    width : 354px;
+}
+
+.checkbox-section input{
+    position : relative;
+    right : 160px;
+}
+
+.checkbox-section label{
+    position : relative;
+    bottom : 25px;
+    left : 20px
+}
+
+.form-section .submit-section{
+    margin-top : -18px;
+    margin-bottom : 10px;
+}
+
+.checkbox-section label{
+    color : #959595;
+}
+
+.submit-section input[type=submit] {
+    box-shadow : 0 2px 5px 1px rgb(0, 0, 0, 0.5);
+    width: 354px;
+    background-color: #285285;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-section input:hover{
+    background-color :#1d4478;
+}
+
+.question a{
+    text-decoration : none;
+    color : #285285;
+}
+
+.form-section input:focus{
+    border : 2px solid #285285;
+    outline : none;
+}
+
+.checkbox-section input[type="checkbox"]{
+    accent-color : #285285;
+}
+
+.form-section .email-section{
+    margin-top: 10px;
+}
+
+.form-section .password-section{
+    margin-top: 10px;
+}
+
+
+
+
+

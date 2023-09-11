@@ -1,0 +1,63 @@
+body .container-schedule{
+    transition: 0.5s;
+    margin-top : 10px;
+    margin-bottom: -20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule-section{
+    display: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding : 40px 60px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    box-shadow: 2px 2px 5px #285285;
+}
+
+.baris{
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.baris div h3, h4{
+    font-family: 'Inter', sans-serif;
+    color : #285285;
+}
+
+.baris .hari{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.647);
+}
+
+.baris .jam{
+    width : 55px;
+    height: 18px;
+    padding : 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.647);
+}
+
+.baris div{
+    display: flex;
+    align-items: center;
+    border: 2px solid #285285;
+    margin : 15px;
+}
+
+hr{
+    border : 2px solid #285285;
+    width : 100%;
+}

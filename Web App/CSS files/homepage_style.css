@@ -1,0 +1,60 @@
+/* CSS Style */
+.main{
+    margin-top: 90px;    
+    background-color: #FAFAFA;
+}
+
+.movie{
+    padding : 60px 70px;
+    box-sizing: border-box;
+}
+
+.movie-tulisan{
+    justify-content: center;
+}
+
+.movie p{
+    font-weight: bold;
+    margin-left: 4px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.movie h2{
+    font-weight: bold;
+    display: block;
+    font-size: 60px;
+    font-weight: 900px;
+    font-display: 10px;
+}
+
+.movie .text_singkat{
+    margin: 10px 0px 25px 4px;
+    font-size: 25px;
+}
+
+.movie-list{
+    margin-top: -20px;
+    margin-bottom : -20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-list a{
+    margin : 20px 20px;
+}
+
+.movie-list a img{
+    object-fit: cover;
+    width : 355px;
+    height: 540px;
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.movie-list img:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+}

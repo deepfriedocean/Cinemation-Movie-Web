@@ -1,0 +1,38 @@
+.footer .footer-menu p{
+    font-weight: 100;
+}
+
+.main{
+    margin-top : 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .container{
+    margin-top : 60px;
+    position: relative;
+    display : flex;
+    margin-bottom : 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 831px;
+}
+
+.main .container .page-path{
+    position: absolute;
+    top : -10px;
+    left : 0px;
+}
+
+.container img{
+    margin : 20px 0px;
+    width : 831px;
+    height: 591px;
+}
+
+.paragraph p{
+    font-weight: bold;
+    text-align : justify;
+    line-height : 30px;
+}
